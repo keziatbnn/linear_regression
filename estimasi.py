@@ -16,7 +16,7 @@ def linear_regression(X, y):
 
 def predict(X, beta):
     """
-    Prediksi manual:
+    Prediksi:
     y_hat = beta0 + beta1*x1 + beta2*x2 + ...
     """
     X_b = np.c_[np.ones((X.shape[0], 1)), X]
